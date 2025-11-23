@@ -1,0 +1,39 @@
+export  function Fun1(){
+   return (<>
+    {/* <h1>Hello React!</h1>
+    <img src="react.svg" alt="logo of react app"/>
+    <p>It is the best and most powerful tool for frontend development. It connect both javascript logic and html</p> */}
+   </>
+    );
+}
+
+
+export const design = {
+    name: " Jordan Walker",
+    style: {
+        backgroundColor: 'yellow',
+        color: 'red'
+    }
+};
+
+export default function Fun2() {
+    return (
+        <div style={design.style}>
+            <h1 style={{ color: 'green' }}>Hello React!</h1>
+            <h2>Author:{design.name}</h2>
+            <img src="react.svg" alt="logo of react app" />
+            <p>It is the best and most powerful tool for frontend development. It connect both javascript logic and html</p>
+
+        </div>
+
+    );
+}
+
+export function Fun3(){
+    return(
+        <div className="fun3">
+        <h1>This is function two!</h1>
+        <p>It has a feature of solving componrnts problems!</p>
+        </div>
+    );
+}
