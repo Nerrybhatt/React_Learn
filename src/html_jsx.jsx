@@ -41,13 +41,13 @@ export function Fun3(){
 //  1. Pricing Card
 export function PricingCard() {
   return (
-    <div style={{ border: "1px solid #e0e0e0", borderRadius: 16, padding: 32, textAlign: "center", maxWidth: 380, margin: "40px auto", boxShadow: "0 10px 30px rgba(0,0,0,0.1)" ,backgroundColor:"cyen" }}>
+    <div style={{ border: "1px solid #e0e0e0", borderRadius: 16, padding: 32, textAlign: "center", maxWidth: 380, margin: "40px auto", boxShadow: "0 10px 30px rgba(0,0,0,0.1)" , backgroundColor:"pink" }}>
       <h2 style={{ fontSize: 28, margin: "0 0 16px" }}>Pro Plan</h2>
       <div style={{ fontSize: 48, fontWeight: "bold", color: "#6366f1" }}>$49<span style={{ fontSize: 20, color: "#999" }}>/month</span></div>
       <ul style={{ listStyle: "none", padding: 0, margin: "24px 0" }}>
         {["Unlimited projects", "Priority support", "Advanced analytics", "API access"].map(item => (
           <li key={item} style={{ padding: "8px 0", display: "flex", alignItems: "center", justifyContent: "center", gap: 12 }}>
-            <span style={{ color: "#10b981" }}>✓</span> {item}
+            <span style={{ color: "#10b981" }}>✓</span> {item} 
           </li>
         ))}
       </ul>
