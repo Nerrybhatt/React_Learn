@@ -1,6 +1,6 @@
 import "./App.css";
 
-export default function IdCard(props){
+export  function IdCard(props){
     return(
        <div className='card'>
            <img src={props.imgs} alt="photo" className='photo'  />
